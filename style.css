@@ -21,3 +21,45 @@
 .carousel-item img{
     max-width: 350px;
 }
+/*
+ Category---------------->>
+*/
+.category1, .category2, .category3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.category1{
+    background-image: linear-gradient(to bottom, rgb(248, 190, 82) 0%, orange 100%);
+}
+.category2{
+    background-image: linear-gradient(to bottom, rgb(253, 143, 187)0%, orchid 100%);
+}
+.category3{
+    background-image: linear-gradient(to bottom, rgb(93, 93, 253) 0%, blue 100%);
+}
+.categories h1{
+    color: #FFFFFF;
+}
+.categories img{
+    width: 100px;
+}
+/*
+ Products---------------->>
+*/
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+#contact{
+    min-height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
